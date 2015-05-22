@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mauro.utplup" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".principal_menu"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".recorrido_buses"
+            android:label="@string/title_activity_recorrido_buses"
+            android:parentActivityName=".principal_menu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mauro.utplup.principal_menu" />
+        </activity>
+        <activity
+            android:name=".Mapa_24demayo"
+            android:label="@string/title_activity_mapa_24demayo"
+            android:parentActivityName=".recorrido_buses" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mauro.utplup.recorrido_buses" />
+        </activity>
+        <activity
+            android:name=".Lista_carreras"
+            android:label="@string/title_activity_lista_carreras"
+            android:parentActivityName=".principal_menu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mauro.utplup.principal_menu" />
+        </activity>
+        <activity
+            android:name=".lista_tareas"
+            android:label="@string/title_activity_lista_tareas"
+            android:parentActivityName=".principal_menu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mauro.utplup.principal_menu" />
+        </activity>
+    </application>
+
+</manifest>

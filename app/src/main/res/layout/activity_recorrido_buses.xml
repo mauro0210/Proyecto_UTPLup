@@ -1,0 +1,235 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:screenOrientation="portrait"
+    tools:context="com.example.mauro.utplup.recorrido_buses"
+    android:background="#ff313131">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stretchColumns="0"
+            android:id="@+id/recorrido_buses">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/celdaprincipal"
+                    android:gravity="center">
+
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/button"
+                        android:text="Zamora Huayco"
+                        android:background="#ff024471"
+                        android:textColor="#fff8f6fb" />
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pradera"
+                    android:id="@+id/button5"
+                    android:layout_column="0"
+                    android:background="#ff024471"
+                    android:textColor="#fff8f6fb" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="24 de mayo"
+                    android:id="@+id/button17"
+                    android:layout_column="0"
+                    android:background="#ff024471"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#fff8f6fb" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Los Rosales"
+                    android:id="@+id/button6"
+                    android:layout_column="0"
+                    android:background="#ff024471"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#fff8f6fb" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Esteban Godoy"
+                    android:id="@+id/button7"
+                    android:layout_column="0"
+                    android:background="#ff024471"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#fff8f6fb" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="50dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Las Pitas"
+                    android:id="@+id/button8"
+                    android:background="#ff024471"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#fff8f6fb" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Daniel Alvarez"
+                    android:id="@+id/button9"
+                    android:background="#ff024471"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#fff8f6fb" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Clodoveo Jaramillo"
+                    android:id="@+id/button10"
+                    android:background="#ff024471"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#fff8f6fb" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Colegio Militar"
+                    android:id="@+id/button11"
+                    android:background="#ff024471"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#fff8f6fb" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Av. Manuel Agustin Aguirre"
+                    android:id="@+id/button12"
+                    android:background="#ff024471"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#fff8f6fb" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Terminal"
+                    android:id="@+id/button13"
+                    android:background="#ff024471"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#fff8f6fb" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="La Tebaida"
+                    android:id="@+id/button14"
+                    android:background="#ff024471"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#fff8f6fb" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sauces Norte"
+                    android:id="@+id/button15"
+                    android:background="#ff024471"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#fff8f6fb" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Colegio Militar"
+                    android:id="@+id/button16"
+                    android:background="#ff024471"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#fff8f6fb" />
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+</RelativeLayout>
